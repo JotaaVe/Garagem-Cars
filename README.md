@@ -16,8 +16,9 @@ O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para 
 - **Consultar referências:** buscar informações na wiki para auxiliar o preenchimento, com revisão antes de aplicar os dados.
 - **Usar identificação com IA:** enviar fotos selecionadas para obter uma hipótese de identificação e revisar as sugestões antes de salvar.
 - **Fazer backup:** exportar e importar a coleção com fotos.
-- **Personalizar a aparência:** escolher entre seis temas, incluindo Dinoco, com fundo discreto de números 95 em movimento e suporte à redução de animações.
-- **Verificar atualizações:** consultar novas versões publicadas neste repositório pelo próprio aplicativo.
+- **Personalizar a aparência:** escolher entre seis temas, incluindo Dinoco, com fundo discreto de números 95 em movimento e suporte à redução de animações. O tema Dinoco também seleciona um ícone Android próprio.
+- **Consultar novidades:** ler offline as notas da versão instalada e o histórico disponível, pelo botão do cabeçalho.
+- **Verificar atualizações:** receber um aviso ao abrir quando houver versão superior, consultar manualmente e baixar o APK dentro do aplicativo, com confirmação final pelo Android.
 
 ## Seus dados e a IA
 

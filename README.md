@@ -16,7 +16,7 @@ O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para 
 - **Consultar referências:** buscar informações na wiki para auxiliar o preenchimento, com revisão antes de aplicar os dados.
 - **Usar identificação com IA:** enviar fotos selecionadas para obter uma hipótese de identificação e revisar as sugestões antes de salvar.
 - **Fazer backup:** exportar e importar a coleção com fotos.
-- **Personalizar a aparência:** escolher entre os temas disponíveis.
+- **Personalizar a aparência:** escolher entre seis temas, incluindo Dinoco, com fundo discreto de números 95 em movimento e suporte à redução de animações.
 - **Verificar atualizações:** consultar novas versões publicadas neste repositório pelo próprio aplicativo.
 
 ## Seus dados e a IA

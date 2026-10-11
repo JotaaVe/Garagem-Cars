@@ -1,1 +1,53 @@
-# Garagem-Cars
+# Garagem Cars
+
+**Sua coleção, cada detalhe.**
+
+O Garagem Cars é um aplicativo Android para colecionadores de miniaturas da linha Disney Pixar Cars da Mattel. Ele ajuda a organizar o acervo, registrar as características de cada exemplar, guardar fotos e acompanhar os valores de aquisição em um só lugar.
+
+O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para atender outros colecionadores.
+
+## O que você pode fazer
+
+- **Catalogar cada exemplar:** registrar personagem, modelo, apelido, variante, códigos, ano, série e observações, incluindo exemplares repetidos.
+- **Organizar as classificações:** informar condição (loose, lacrada ou não identificada), linha, formato de venda, designação especial e tipo de embalagem.
+- **Guardar e consultar fotos:** adicionar várias imagens por miniatura e usar a galeria com ampliação para conferir detalhes.
+- **Encontrar miniaturas na coleção:** pesquisar por nome ou apelido e combinar filtros do acervo.
+- **Acompanhar gastos:** registrar preços de aquisição, moedas e valores em reais, com um resumo do custo conhecido da coleção.
+- **Consultar referências:** buscar informações na wiki para auxiliar o preenchimento, com revisão antes de aplicar os dados.
+- **Usar identificação com IA:** enviar fotos selecionadas para obter uma hipótese de identificação e revisar as sugestões antes de salvar.
+- **Fazer backup:** exportar e importar a coleção com fotos.
+- **Personalizar a aparência:** escolher entre os temas disponíveis.
+- **Verificar atualizações:** consultar novas versões publicadas neste repositório pelo próprio aplicativo.
+
+## Seus dados e a IA
+
+A coleção e as fotos são armazenadas no aparelho. O cadastro e a consulta do acervo podem ser usados sem IA; os recursos online precisam de conexão com a internet.
+
+A identificação com IA é opcional, utiliza o Google Gemini e exige uma chave de API configurada pelo usuário. Quando você solicita uma análise, as fotos selecionadas são enviadas ao serviço. A disponibilidade depende da chave, do modelo e dos limites do provedor.
+
+A IA está em aperfeiçoamento: as sugestões podem conter erros e devem ser conferidas pelo colecionador. Ela não comprova autenticidade, raridade ou valor de mercado. Você também pode cadastrar tudo manualmente.
+
+## Baixar e instalar
+
+**Requisito:** Android 8.0 ou posterior.
+
+1. Abra a [última versão publicada](https://github.com/JotaaVe/Garagem-Cars/releases/latest).
+2. Na seção **Assets**, baixe o arquivo **Garagem-Cars-<versão>.apk**.
+3. Abra o APK no Android e siga as instruções de instalação.
+
+Para atualizar uma instalação existente, instale o novo APK sobre o aplicativo atual, **sem desinstalar nem limpar os dados**. Mantenha um backup da coleção com fotos.
+
+O aplicativo pode verificar se há uma nova versão; a instalação depende da confirmação do usuário no Android.
+
+## Estado do projeto
+
+O Garagem Cars está em desenvolvimento, com foco atual no Android. Novas versões trazem melhorias de interface, organização da coleção e identificação assistida.
+
+Uma possível versão para iOS está no planejamento futuro, sem data definida. Ainda não há versão disponível para iPhone.
+
+## Sugestões e problemas
+
+Use a [área de Issues](https://github.com/JotaaVe/Garagem-Cars/issues) para sugerir recursos ou relatar problemas. Ao informar um erro, inclua a versão do aplicativo, o modelo do aparelho e os passos para reproduzi-lo. Não publique chaves de API ou dados pessoais.
+
+As mudanças de cada versão ficam nas [notas de lançamento](https://github.com/JotaaVe/Garagem-Cars/releases).
+

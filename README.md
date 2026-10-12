@@ -11,19 +11,19 @@ O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para 
 - **Catalogar cada exemplar:** registrar personagem, modelo, apelido, variante, códigos, ano, série e observações, incluindo exemplares repetidos.
 - **Organizar as classificações:** informar condição (loose, lacrada ou não identificada), linha, formato de venda, designação especial e tipo de embalagem.
 - **Guardar e consultar fotos:** adicionar várias imagens por miniatura e usar a galeria com ampliação para conferir detalhes.
-- **Encontrar miniaturas na coleção:** pesquisar por nome ou apelido e combinar filtros do acervo.
+- **Encontrar e ordenar miniaturas:** pesquisar por nome ou apelido, combinar filtros e escolher os cadastros mais recentes ou mais antigos primeiro. A ordem fica salva e não muda por editar um exemplar.
 - **Registrar a aquisição:** informar de quem adquiriu a miniatura e a data, inclusive antiga, com calendário e formato brasileiro. Os campos são opcionais e acompanham o backup.
 - **Acompanhar gastos:** registrar preços de aquisição, moedas e valores em reais, com um resumo do custo conhecido da coleção.
 - **Consultar referências:** buscar informações na wiki para auxiliar o preenchimento, com revisão antes de aplicar os dados.
 - **Usar identificação com IA:** enviar fotos selecionadas para obter uma hipótese de identificação e revisar as sugestões antes de salvar.
 - **Fazer backup:** exportar e importar a coleção com fotos.
-- **Personalizar a aparência:** escolher entre seis temas, com Rustiz e Dinoco em destaque, com fundo discreto de números 95 em movimento e suporte à redução de animações. O tema Dinoco também seleciona um ícone Android próprio; a mudança fica pendente até uma saída segura do app, preservando o cadastro em andamento.
+- **Personalizar a aparência:** escolher entre seis temas, com Rust-eze e Dinoco em destaque, fundo discreto de números 95 e pequenos raios ao trocar o tema. A redução de movimento mantém apenas a seleção estática. O tema Dinoco também seleciona um ícone Android próprio; a mudança fica pendente até uma saída segura do app, preservando o cadastro em andamento.
 - **Consultar novidades:** ler offline as notas da versão instalada e o histórico disponível, pelo botão do cabeçalho.
 - **Verificar atualizações:** receber um aviso ao abrir quando houver versão superior, consultar manualmente e baixar o APK dentro do aplicativo, com confirmação final pelo Android.
 
 ## Seus dados e a IA
 
-A coleção e as fotos são armazenadas no aparelho. Pessoa ou loja de aquisição, data, preços e notas pessoais não são enviados à IA nem à wiki. O cadastro e a consulta do acervo podem ser usados sem IA; os recursos online precisam de conexão com a internet.
+A coleção e as fotos são armazenadas no aparelho. Pessoa ou loja de aquisição, data, preços e notas pessoais não são enviados à IA nem à wiki. Com a IA desativada, câmera, galeria e cadastro manual continuam disponíveis. O botão Ajustes abre diretamente as preferências de IA e preserva o formulário na volta, sem iniciar uma análise. Os recursos online precisam de conexão com a internet.
 
 A identificação com IA é opcional, utiliza o Google Gemini e exige uma chave de API configurada pelo usuário. Quando você solicita uma análise, as fotos selecionadas são enviadas ao serviço. A disponibilidade depende da chave, do modelo e dos limites do provedor.
 

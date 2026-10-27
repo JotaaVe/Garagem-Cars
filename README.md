@@ -17,16 +17,20 @@ O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para 
 - **Consultar referências:** buscar informações na wiki para auxiliar o preenchimento, com revisão antes de aplicar os dados.
 - **Usar identificação com IA:** enviar fotos selecionadas para obter uma hipótese de identificação e revisar as sugestões antes de salvar.
 - **Fazer backup:** exportar coleção, desejos e fotos, configurar um lembrete e verificar o arquivo antes de restaurar. A restauração tem resumo e cópia de recuperação.
-- **Personalizar a aparência:** escolher entre seis temas, com Rust-eze e Dinoco em destaque, fundo discreto de números 95 e pequenos raios ao trocar o tema. A redução de movimento mantém apenas a seleção estática. O tema Dinoco também seleciona um ícone Android próprio; a mudança fica pendente até uma saída segura do app, preservando o cadastro em andamento.
+- **Personalizar a aparência:** escolher entre seis temas, com Rust-eze e Dinoco em destaque, fundo discreto de números 95 e pequenos raios ao trocar o tema. É possível desativar a animação do fundo. A redução de movimento mantém apenas a seleção estática. O tema Dinoco também seleciona um ícone Android próprio; a mudança fica pendente até uma saída segura do app, preservando o cadastro em andamento.
 - **Consultar novidades:** ler offline as notas da versão instalada e o histórico disponível, pelo botão do cabeçalho.
 - **Verificar atualizações:** receber um aviso ao abrir quando houver versão superior, consultar manualmente e baixar o APK dentro do aplicativo, com confirmação final pelo Android.
 
-- **Controlar quantidades e packs:** distinguir registros, unidades de compra e veículos, informando o preço por unidade ou pelo total.
+- **Controlar quantidades e packs:** distinguir registros, unidades de compra e veículos, informando o preço por unidade ou pelo total. Detalhar os personagens e suas quantidades dentro de cada pack, inclusive composições parciais.
+- **Reutilizar nomes de personagens:** escolher entre os já cadastrados e revisar sugestões locais de grafia. Variantes como Party Wheels permanecem separadas do personagem; nenhuma correção é aplicada sem sua escolha.
 - **Planejar aquisições:** manter desejos em Pendentes e Conseguidos, sem misturá-los aos gastos da garagem.
 - **Associar filmes e séries:** escolher várias produções e vincular episódios às séries correspondentes.
 - **Consultar filtros relevantes:** somente opções utilizadas nos registros da área aparecem; os formulários mantêm todas as opções.
-- **Consultar análises locais:** composição, compras por período, vendedores e produções, com moedas e históricos separados de estimativas.
+- **Consultar análises locais:** números de registros, unidades e veículos, com uma distribuição por vez e acesso aos cadastros de cada grupo. Personagens podem ser contados por registros ou por veículos, incluindo os integrantes informados dos packs.
+- **Entender as compras:** períodos de aquisição, valores originais por moeda, estimativa pelo câmbio atual e custo histórico conhecido, com indicação dos registros incluídos e excluídos.
 - **Preparar trocas e vendas:** informar disponibilidade e preço pedido, escolher o conteúdo e compartilhar uma prévia sem expor os dados de compra.
+
+A navegação reúne **Garagem**, **Quero ter**, **Análises** e **Ajustes**. A galeria permite escolher a foto principal de cada miniatura. Os personagens de packs antigos não são inferidos pelo título: o detalhamento é opcional e acompanha o backup.
 
 ## Seus dados e a IA
 

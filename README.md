@@ -18,6 +18,7 @@ O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para 
 - **Usar identificação com IA:** enviar fotos selecionadas para obter uma hipótese de identificação e revisar as sugestões antes de salvar.
 - **Fazer backup:** exportar coleção, desejos e fotos, configurar um lembrete e verificar o arquivo antes de restaurar. A restauração tem resumo e cópia de recuperação.
 - **Personalizar a aparência:** escolher entre seis temas, com Rust-eze e Dinoco em destaque, fundo discreto de números 95 e pequenos raios ao trocar o tema. É possível desativar a animação do fundo. A redução de movimento mantém apenas a seleção estática. O tema Dinoco também seleciona um ícone Android próprio; a mudança fica pendente até uma saída segura do app, preservando o cadastro em andamento.
+- **Ajustar o movimento:** usar transições discretas na navegação, galeria e gráficos, com confirmações após salvar miniaturas ou concluir desejos. Em Ajustes → Aparência, é possível desativar animações, reduzir movimento e escolher a confirmação dos desejos. As preferências acompanham o backup e respeitam a redução de movimento do sistema.
 - **Consultar novidades:** ler offline as notas da versão instalada e o histórico disponível, pelo botão do cabeçalho.
 - **Verificar atualizações:** receber um aviso ao abrir quando houver versão superior, consultar manualmente e baixar o APK dentro do aplicativo, com confirmação final pelo Android.
 
@@ -65,4 +66,3 @@ Uma possível versão para iOS está no planejamento futuro, sem data definida. 
 Use a [área de Issues](https://github.com/JotaaVe/Garagem-Cars/issues) para sugerir recursos ou relatar problemas. Ao informar um erro, inclua a versão do aplicativo, o modelo do aparelho e os passos para reproduzi-lo. Não publique chaves de API ou dados pessoais.
 
 As mudanças de cada versão ficam nas [notas de lançamento](https://github.com/JotaaVe/Garagem-Cars/releases).
-

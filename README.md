@@ -9,12 +9,12 @@ O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para 
 ## O que você pode fazer
 
 - **Catalogar cada exemplar:** registrar personagem, modelo, variante, códigos, ano, série e observações, incluindo exemplares repetidos.
-- **Organizar as classificações:** informar condição (loose, lacrada ou não identificada), linha, formato de venda, designação especial e tipo de embalagem.
+- **Organizar as classificações:** informar condição (loose, lacrada ou não identificada), linha, formato de venda, designação especial e série/época da embalagem. O seletor pesquisável oferece opções como Desert, Supercharged, Themes por ano, Red Desert por período e 20th Anniversary, preservando valores antigos.
 - **Guardar e consultar fotos:** adicionar várias imagens por miniatura e usar a galeria com ampliação para conferir detalhes.
 - **Encontrar e ordenar miniaturas:** pesquisar por miniatura, combinar filtros e escolher os cadastros mais recentes ou mais antigos primeiro. A ordem fica salva e não muda por editar um exemplar.
 - **Registrar a aquisição:** informar de quem adquiriu a miniatura e a data, inclusive antiga, com calendário e formato brasileiro. Os campos são opcionais e acompanham o backup.
 - **Acompanhar gastos:** registrar preços de aquisição, moedas e valores em reais, com um resumo do custo conhecido da coleção.
-- **Consultar referências:** buscar informações na wiki para auxiliar o preenchimento, com revisão antes de aplicar os dados.
+- **Consultar referências:** buscar informações na wiki para auxiliar o preenchimento, com revisão antes de aplicar os dados. Atualmente, a proteção do site pode bloquear a consulta; o aplicativo informa essa condição sem tratá-la como ausência de resultados.
 - **Usar identificação com IA:** enviar fotos selecionadas para obter uma hipótese de identificação e revisar as sugestões antes de salvar.
 - **Fazer backup:** exportar coleção, desejos e fotos, configurar um lembrete e verificar o arquivo antes de restaurar. A restauração tem resumo e cópia de recuperação.
 - **Personalizar a aparência:** escolher entre seis temas, com Rust-eze e Dinoco em destaque, fundo discreto de números 95 e pequenos raios ao trocar o tema. É possível desativar a animação do fundo. A redução de movimento mantém apenas a seleção estática. O tema Dinoco também seleciona um ícone Android próprio; a mudança fica pendente até uma saída segura do app, preservando o cadastro em andamento.
@@ -23,13 +23,13 @@ O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para 
 - **Verificar atualizações:** receber um aviso ao abrir quando houver versão superior, consultar manualmente e baixar o APK dentro do aplicativo, com confirmação final pelo Android.
 
 - **Controlar quantidades e packs:** distinguir registros, unidades de compra e veículos, informando o preço por unidade ou pelo total. Detalhar os personagens e suas quantidades dentro de cada pack, inclusive composições parciais.
-- **Reutilizar nomes de personagens:** escolher entre os já cadastrados e revisar sugestões locais de grafia. Variantes como Party Wheels permanecem separadas do personagem; nenhuma correção é aplicada sem sua escolha.
+- **Reutilizar nomes de personagens:** pesquisar personagens e variantes já utilizados. Ao digitar o título, uma correspondência única com personagem cadastrado pode preencher o campo; escolhas manuais são preservadas. Ambiguidades e sugestões de grafia pedem revisão. Variantes como Party Wheels permanecem separadas do personagem.
 - **Planejar aquisições:** manter desejos em Pendentes e Conseguidos, sem misturá-los aos gastos da garagem.
 - **Associar filmes e séries:** escolher várias produções e vincular episódios às séries correspondentes.
 - **Consultar filtros relevantes:** somente opções utilizadas nos registros da área aparecem; os formulários mantêm todas as opções.
 - **Consultar análises locais:** números de registros, unidades e veículos, com uma distribuição por vez e acesso aos cadastros de cada grupo. Personagens podem ser contados por registros ou por veículos, incluindo os integrantes informados dos packs.
 - **Entender as compras:** períodos de aquisição, valores originais por moeda, estimativa pelo câmbio atual e custo histórico conhecido, com indicação dos registros incluídos e excluídos.
-- **Preparar trocas e vendas:** informar disponibilidade e preço pedido, escolher o conteúdo e compartilhar uma prévia sem expor os dados de compra.
+- **Compartilhar miniaturas e vendas:** escolher uma ou várias fotos, revisar a mensagem e abrir o compartilhamento do Android. Anúncios de venda permitem preço imediato e, opcionalmente, pagamento único até uma data. É possível copiar o texto; as condições do anúncio não alteram o cadastro e os dados de compra não são incluídos automaticamente.
 
 A navegação reúne **Garagem**, **Quero ter**, **Análises** e **Ajustes**. A galeria permite escolher a foto principal de cada miniatura. Os personagens de packs antigos não são inferidos pelo título: o detalhamento é opcional e acompanha o backup.
 
@@ -66,3 +66,4 @@ Uma possível versão para iOS está no planejamento futuro, sem data definida. 
 Use a [área de Issues](https://github.com/JotaaVe/Garagem-Cars/issues) para sugerir recursos ou relatar problemas. Ao informar um erro, inclua a versão do aplicativo, o modelo do aparelho e os passos para reproduzi-lo. Não publique chaves de API ou dados pessoais.
 
 As mudanças de cada versão ficam nas [notas de lançamento](https://github.com/JotaaVe/Garagem-Cars/releases).
+

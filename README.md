@@ -1,69 +1,141 @@
-# Garagem Cars
+<p align="center">
+  <img src="docs/images/rust-eze.png" alt="Logo Rust-eze utilizada no tema do Garagem Cars" width="180">
+</p>
 
-**Sua coleção, cada detalhe.**
+<h1 align="center">Garagem Cars</h1>
 
-O Garagem Cars é um aplicativo Android para colecionadores de miniaturas da linha Disney Pixar Cars da Mattel. Ele ajuda a organizar o acervo, registrar as características de cada exemplar, guardar fotos e acompanhar os valores de aquisição em um só lugar.
+<p align="center"><strong>Sua coleção, cada detalhe.</strong></p>
 
-O projeto nasceu de uma necessidade pessoal de coleção e está evoluindo para atender outros colecionadores.
+<p align="center">
+  Um lugar para organizar suas miniaturas Disney Pixar Cars da Mattel,<br>
+  acompanhar suas compras e planejar as próximas aquisições.
+</p>
+
+<p align="center">
+  <strong>Android 8.0+</strong> · Coleção local e offline · Em português
+</p>
+
+<p align="center">
+  <a href="https://github.com/JotaaVe/Garagem-Cars/releases/latest"><strong>Baixar o APK</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/JotaaVe/Garagem-Cars/releases">Novidades das versões</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/JotaaVe/Garagem-Cars/issues">Sugestões e problemas</a>
+</p>
+
+---
+
+## Uma garagem para a sua coleção
+
+O **Garagem Cars** nasceu de uma coleção pessoal. A proposta é reunir fotos, personagens, variantes, embalagens e informações de compra em um catálogo fácil de consultar — tanto para lembrar o que você já tem quanto para decidir o que ainda quer encontrar.
+
+O cadastro manual e a consulta da coleção funcionam **sem internet e sem criar uma conta**. Os dados ficam no aparelho; os recursos online são complementares.
+
+## Conheça o aplicativo
+
+### Dois temas, a mesma garagem
+
+<table>
+  <tr>
+    <th align="center">Rust-eze</th>
+    <th align="center">Dinoco</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/garagem-rusteze.png" alt="Minha garagem no tema Rust-eze, com resumo da coleção, busca, filtros e fotos das miniaturas" width="270"></td>
+    <td align="center"><img src="docs/images/garagem-dinoco.png" alt="Minha garagem no tema Dinoco, com tons claros, azul e laranja" width="270"></td>
+  </tr>
+</table>
+
+### Do próximo desejo aos detalhes do acervo
+
+<table>
+  <tr>
+    <th align="center">Quero ter</th>
+    <th align="center">Análises</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/quero-ter.png" alt="Lista de desejos com as abas Pendentes e Conseguidos, busca e prioridades" width="270"></td>
+    <td align="center"><img src="docs/images/analises.png" alt="Análises com contagens de registros, unidades e veículos e distribuição por filme ou série" width="270"></td>
+  </tr>
+</table>
+
+<details>
+  <summary><strong>Ver mais: miniaturas individuais e packs na coleção</strong></summary>
+  <p align="center"><img src="docs/images/colecao-packs.png" alt="Cards de miniaturas e pack com dois veículos, mostrando condição, quantidade e valor da compra" width="320"></p>
+</details>
+
+As capturas mostram o aplicativo Android com uma coleção cadastrada. Fotos, nomes e valores são exemplos dessa coleção, não um catálogo incluído no app.
 
 ## O que você pode fazer
 
-- **Catalogar cada exemplar:** registrar personagem, modelo, variante, códigos, ano, série e observações, incluindo exemplares repetidos.
-- **Organizar as classificações:** informar condição (loose, lacrada ou não identificada), linha, formato de venda, designação especial e série/época da embalagem. O seletor pesquisável oferece opções como Desert, Supercharged, Themes por ano, Red Desert por período e 20th Anniversary, preservando valores antigos.
-- **Guardar e consultar fotos:** adicionar várias imagens por miniatura e usar a galeria com ampliação para conferir detalhes.
-- **Encontrar e ordenar miniaturas:** pesquisar por miniatura, combinar filtros e escolher os cadastros mais recentes ou mais antigos primeiro. A ordem fica salva e não muda por editar um exemplar.
-- **Registrar a aquisição:** informar de quem adquiriu a miniatura e a data, inclusive antiga, com calendário e formato brasileiro. Os campos são opcionais e acompanham o backup.
-- **Acompanhar gastos:** registrar preços de aquisição, moedas e valores em reais, com um resumo do custo conhecido da coleção.
-- **Consultar referências:** buscar informações na wiki para auxiliar o preenchimento, com revisão antes de aplicar os dados. Atualmente, a proteção do site pode bloquear a consulta; o aplicativo informa essa condição sem tratá-la como ausência de resultados.
-- **Usar identificação com IA:** enviar fotos selecionadas para obter uma hipótese de identificação e revisar as sugestões antes de salvar.
-- **Fazer backup:** exportar coleção, desejos e fotos, configurar um lembrete e verificar o arquivo antes de restaurar. A restauração tem resumo e cópia de recuperação.
-- **Personalizar a aparência:** escolher entre seis temas, com Rust-eze e Dinoco em destaque, fundo discreto de números 95 e pequenos raios ao trocar o tema. É possível desativar a animação do fundo. A redução de movimento mantém apenas a seleção estática. O tema Dinoco também seleciona um ícone Android próprio; a mudança fica pendente até uma saída segura do app, preservando o cadastro em andamento.
-- **Ajustar o movimento:** usar transições discretas na navegação, galeria e gráficos, com confirmações após salvar miniaturas ou concluir desejos. Em Ajustes → Aparência, é possível desativar animações, reduzir movimento e escolher a confirmação dos desejos. As preferências acompanham o backup e respeitam a redução de movimento do sistema.
-- **Consultar novidades:** ler offline as notas da versão instalada e o histórico disponível, pelo botão do cabeçalho.
-- **Verificar atualizações:** receber um aviso ao abrir quando houver versão superior, consultar manualmente e baixar o APK dentro do aplicativo, com confirmação final pelo Android.
+| Área | Recursos |
+| --- | --- |
+| **Minha garagem** | Cadastre miniaturas com várias fotos, condição, personagem, variante, códigos, ano, produções, classificações e série da embalagem. Encontre os itens com busca, filtros e ordenação. |
+| **Quantidades e packs** | Diferencie registros, unidades de compra e veículos. Informe os personagens e suas quantidades dentro de cada pack, mantendo a variante separada do personagem. |
+| **Quero ter** | Organize os próximos desejos por prioridade e acompanhe Pendentes e Conseguidos, sem misturá-los aos gastos da garagem. |
+| **Análises** | Consulte a composição da coleção, distribuições por categoria e compras por período, com distinção entre custo histórico e estimativa pelo câmbio atual. |
+| **Compartilhamento** | Escolha fotos, revise a mensagem e compartilhe pelo Android. Prepare também textos de venda com preço e condições, sem alterar os dados de compra do cadastro. |
+| **Aparência** | Escolha entre seis temas, incluindo Rust-eze e Dinoco. Ajuste animações e redução de movimento conforme sua preferência. |
+| **Backup** | Exporte coleção, desejos e fotos. Configure lembretes e confira o resumo do arquivo antes de restaurar. |
 
-- **Controlar quantidades e packs:** distinguir registros, unidades de compra e veículos, informando o preço por unidade ou pelo total. Detalhar os personagens e suas quantidades dentro de cada pack, inclusive composições parciais.
-- **Reutilizar nomes de personagens:** pesquisar personagens e variantes já utilizados. Ao digitar o título, uma correspondência única com personagem cadastrado pode preencher o campo; escolhas manuais são preservadas. Ambiguidades e sugestões de grafia pedem revisão. Variantes como Party Wheels permanecem separadas do personagem.
-- **Planejar aquisições:** manter desejos em Pendentes e Conseguidos, sem misturá-los aos gastos da garagem.
-- **Associar filmes e séries:** escolher várias produções e vincular episódios às séries correspondentes.
-- **Consultar filtros relevantes:** somente opções utilizadas nos registros da área aparecem; os formulários mantêm todas as opções.
-- **Consultar análises locais:** números de registros, unidades e veículos, com uma distribuição por vez e acesso aos cadastros de cada grupo. Personagens podem ser contados por registros ou por veículos, incluindo os integrantes informados dos packs.
-- **Entender as compras:** períodos de aquisição, valores originais por moeda, estimativa pelo câmbio atual e custo histórico conhecido, com indicação dos registros incluídos e excluídos.
-- **Compartilhar miniaturas e vendas:** escolher uma ou várias fotos, revisar a mensagem e abrir o compartilhamento do Android. Anúncios de venda permitem preço imediato e, opcionalmente, pagamento único até uma data. É possível copiar o texto; as condições do anúncio não alteram o cadastro e os dados de compra não são incluídos automaticamente.
+### Detalhes que fazem diferença
 
-A navegação reúne **Garagem**, **Quero ter**, **Análises** e **Ajustes**. A galeria permite escolher a foto principal de cada miniatura. Os personagens de packs antigos não são inferidos pelo título: o detalhamento é opcional e acompanha o backup.
+- **Fotos para consultar de perto:** galeria com ampliação e escolha da imagem principal.
+- **Nomes organizados:** reutilize personagens e variantes já cadastrados, com sugestões de grafia para revisar.
+- **Filtros relevantes:** as opções acompanham os registros existentes em cada área; os formulários continuam oferecendo todas as opções de cadastro.
+- **Histórico de aquisição:** registre opcionalmente data, pessoa ou loja, moeda e preço pago.
+- **Novidades no próprio app:** leia as notas da versão instalada offline e verifique novas atualizações quando estiver conectado.
 
-## Seus dados e a IA
+## Baixar e começar
 
-A coleção e as fotos são armazenadas no aparelho. Pessoa ou loja de aquisição, data, preços e notas pessoais não são enviados à IA nem à wiki. Com a IA desativada, câmera, galeria e cadastro manual continuam disponíveis. A ativação da IA fica nas configurações; retornar ao cadastro preserva os campos e não inicia análise. A wiki tem um controle independente. Os recursos online precisam de conexão com a internet.
+**Requisito: Android 8.0 ou posterior.**
 
-A identificação com IA é opcional, utiliza o Google Gemini e exige uma chave de API configurada pelo usuário. Quando você solicita uma análise, as fotos selecionadas são enviadas ao serviço. A disponibilidade depende da chave, do modelo e dos limites do provedor.
+1. Acesse a [última versão publicada](https://github.com/JotaaVe/Garagem-Cars/releases/latest).
+2. Em **Assets**, baixe o arquivo `Garagem-Cars-<versão>.apk`.
+3. Abra o arquivo no celular e siga as instruções do Android. Se solicitado, permita a instalação pela origem usada para abrir o APK.
+4. No aplicativo, toque em **Adicionar miniatura** para começar sua garagem.
 
-A busca da wiki permanece geral: o recorte Basic (1:55) ainda não está disponível na integração.
+**Já usa o Garagem Cars?** Instale o novo APK sobre a instalação atual, **sem desinstalar o aplicativo nem limpar seus dados**. Mantenha também um backup com fotos em um local seguro fora do app.
 
-A IA está em aperfeiçoamento: as sugestões podem conter erros e devem ser conferidas pelo colecionador. Ela não comprova autenticidade, raridade ou valor de mercado. Você também pode cadastrar tudo manualmente.
+O aplicativo pode avisar quando há uma nova versão e baixar o APK. A instalação sempre depende da sua confirmação no Android.
 
-## Baixar e instalar
+## Seus dados ficam com você
 
-**Requisito:** Android 8.0 ou posterior.
+A coleção, as fotos, os desejos e as configurações ficam armazenados no aparelho. O backup permite levar esses dados para outro dispositivo ou recuperá-los depois; ele precisa ser exportado e guardado por você. Não há sincronização automática da coleção com uma conta online.
 
-1. Abra a [última versão publicada](https://github.com/JotaaVe/Garagem-Cars/releases/latest).
-2. Na seção **Assets**, baixe o arquivo **Garagem-Cars-<versão>.apk**.
-3. Abra o APK no Android e siga as instruções de instalação.
+Ao compartilhar uma miniatura, você escolhe as fotos e revisa o texto antes de abrir o compartilhamento do Android. Dados de aquisição não são incluídos automaticamente na mensagem.
 
-Para atualizar uma instalação existente, instale o novo APK sobre o aplicativo atual, **sem desinstalar nem limpar os dados**. Mantenha um backup da coleção com fotos.
+<details>
+  <summary><strong>Recursos online: IA, wiki, câmbio e atualizações</strong></summary>
 
-O aplicativo pode verificar se há uma nova versão; a instalação depende da confirmação do usuário no Android.
+### Identificação com IA — opcional
 
-## Estado do projeto
+A integração utiliza o **Google Gemini** e exige uma chave de API configurada pelo usuário. Quando uma análise é solicitada, as fotos selecionadas são enviadas ao serviço. A disponibilidade depende da chave, do modelo e dos limites do provedor.
 
-O Garagem Cars está em desenvolvimento, com foco atual no Android. Novas versões trazem melhorias de interface, organização da coleção e identificação assistida.
+As sugestões devem ser revisadas: a IA não comprova autenticidade, raridade ou valor de mercado. Com a IA desativada, câmera, galeria e cadastro manual continuam disponíveis.
 
-Uma possível versão para iOS está no planejamento futuro, sem data definida. Ainda não há versão disponível para iPhone.
+### Referências da wiki
 
-## Sugestões e problemas
+A consulta integrada auxilia o preenchimento com revisão antes de aplicar os dados e tem um controle independente da IA. **Atualmente, a proteção da wiki pode bloquear as consultas.** O app informa essa falha; ela não significa que a miniatura não existe na fonte. O cadastro manual continua disponível.
 
-Use a [área de Issues](https://github.com/JotaaVe/Garagem-Cars/issues) para sugerir recursos ou relatar problemas. Ao informar um erro, inclua a versão do aplicativo, o modelo do aparelho e os passos para reproduzi-lo. Não publique chaves de API ou dados pessoais.
+A busca é geral: ainda não há um recorte exclusivo para a linha Basic (1:55).
 
-As mudanças de cada versão ficam nas [notas de lançamento](https://github.com/JotaaVe/Garagem-Cars/releases).
+### Câmbio e novas versões
 
+As cotações ajudam a estimar valores em reais sem substituir o custo histórico informado. A consulta de câmbio e a verificação de versões no GitHub dependem de conexão.
+
+Pessoa ou loja de aquisição, data, preços e notas pessoais não são enviados à IA nem à wiki.
+
+</details>
+
+## Sobre o projeto
+
+Este repositório apresenta e distribui o **APK Android do Garagem Cars**, um aplicativo de coleção local em desenvolvimento. A ideia de uma comunidade de compra e venda está em uma **demonstração separada** e não faz parte dos recursos disponíveis neste APK.
+
+Quer acompanhar a evolução? Consulte as [notas de lançamento](https://github.com/JotaaVe/Garagem-Cars/releases). Para sugerir melhorias ou relatar um problema, abra uma [Issue](https://github.com/JotaaVe/Garagem-Cars/issues), informando a versão do app, o aparelho e os passos para reproduzir a situação. Não publique chaves de API ou informações pessoais.
+
+---
+
+<p align="center"><strong>Garagem Cars · Sua coleção, cada detalhe.</strong></p>
+
+<p align="center"><sub>Projeto independente, sem vínculo com Mattel, Disney ou Pixar.<br>Marcas, personagens e logos pertencem aos seus respectivos titulares.</sub></p>

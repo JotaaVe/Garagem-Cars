@@ -70,7 +70,7 @@ As capturas mostram o aplicativo Android com uma coleção cadastrada. Fotos, no
 
 | Área | Recursos |
 | --- | --- |
-| **Minha garagem** | Cadastre miniaturas com várias fotos, condição, personagem, variante, códigos, ano, produções, classificações e série da embalagem. Encontre os itens com busca, filtros e ordenação. |
+| **Minha garagem** | Cadastre miniaturas com várias fotos, condição, personagem, variante, códigos, ano, produções, classificações e série da embalagem. Encontre os itens com busca, filtros e ordenação; escolha entre os modos Atual, Compacto e Lista. |
 | **Quantidades e packs** | Diferencie registros, unidades de compra e veículos. Informe os personagens e suas quantidades dentro de cada pack, mantendo a variante separada do personagem. |
 | **Quero ter** | Organize os próximos desejos por prioridade e acompanhe Pendentes e Conseguidos, sem misturá-los aos gastos da garagem. |
 | **Análises** | Consulte a composição da coleção, distribuições por categoria e compras por período, com distinção entre custo histórico e estimativa pelo câmbio atual. |
@@ -79,6 +79,8 @@ As capturas mostram o aplicativo Android com uma coleção cadastrada. Fotos, no
 | **Backup** | Exporte coleção, desejos e fotos. Configure lembretes e confira o resumo do arquivo antes de restaurar. |
 
 ### Detalhes que fazem diferença
+
+- **Três formas de visualizar:** cards completos no modo Atual, grade automática no Compacto e foto com informações organizadas na Lista. A preferência fica salva no aparelho.
 
 - **Fotos para consultar de perto:** galeria com ampliação e escolha da imagem principal.
 - **Nomes organizados:** reutilize personagens e variantes já cadastrados, com sugestões de grafia para revisar.
